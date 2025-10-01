@@ -1,0 +1,74 @@
+/* styles.css */
+
+/* Static background image */
+body {
+  background-image: url("./Resources/Imgs/brain.jpg");
+  background-repeat: repeat;
+  background-size: auto; /* Original image size */
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* Modal Styles */
+.modal-content-custom {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content-custom.winner {
+  background: linear-gradient(135deg, #28a745, #20c997);
+  color: white;
+}
+
+.modal-content-custom.loser {
+  background: linear-gradient(135deg, #dc3545, #fd7e14);
+  color: white;
+}
+
+.modal.show .modal-dialog {
+  transform: scale(1);
+}
+
+.modal.fade .modal-dialog {
+  transform: scale(0.7);
+  transition: transform 0.3s ease-out;
+}
+
+/* Card sizing styles */
+.card-container {
+  width: 100%;
+  height: 70px;
+  max-width: 100px;
+}
+
+.card-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    height: 80px;
+    max-width: 110px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-container {
+    height: 85px;
+    max-width: 115px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-container {
+    height: 90px;
+    max-width: 120px;
+  }
+}
+
+#gameBoard {
+  max-width: 700px;
+  margin: 0 auto;
+}
