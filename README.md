@@ -6,12 +6,6 @@ Clean, responsive design using Bootstrap
 
 Type-safe development with TypeScript
 
-Move counter to track your progress
-
-Timer to measure your performance
-
-Star rating system based on your performance
-
 Restart functionality to play again
 
 Card flip animations for smooth gameplay
